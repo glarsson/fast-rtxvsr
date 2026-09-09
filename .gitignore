@@ -1,0 +1,31 @@
+# The provisioned runtime venv (torch cu130 + NVIDIA VFX SDK).
+# Created by: fast-rtxvsr setup   (never committed - carries NVIDIA runtimes
+# under their own license, several GB after install)
+.venv/
+
+# Outputs / generated media
+out/
+.smoke/
+*.mp4
+*.mkv
+*.mov
+*.webm
+*.report.json
+!bench/*.report.json
+*.timing.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini

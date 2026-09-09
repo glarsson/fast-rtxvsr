@@ -1,0 +1,119 @@
+{
+  "video_id": "winged-couriers-1_001",
+  "source": "D:\\SOURCE\\AutoTube\\projects\\winged-couriers-1_001\\final_stitched.mp4",
+  "excerpt": "D:\\SOURCE\\AutoTube\\video_benchmark\\dlss_upscale\\input\\winged-couriers-1_001_60s.mp4",
+  "excerpt_probe": {
+    "width": 1344,
+    "height": 768,
+    "fps": 24.0,
+    "frames": 288,
+    "duration_sec": 12.0
+  },
+  "start_sec": 60,
+  "seconds": 12.0,
+  "delivery": {
+    "width": 1920,
+    "height": 1080
+  },
+  "factor": 1.5,
+  "nr_style": "Default",
+  "legs": {
+    "rtx_vsr_ultra": {
+      "ok": true,
+      "wall_clock_sec": 10.8,
+      "quality": "ULTRA",
+      "output": {
+        "width": 1920,
+        "height": 1080,
+        "fps": 24.0067,
+        "frames": 286,
+        "duration_sec": 11.917
+      },
+      "fps_end_to_end": 26.48
+    },
+    "dlss_video_upscale": {
+      "ok": true,
+      "wall_clock_sec": 16.5,
+      "output_path": "D:\\SOURCE\\AutoTube\\video_benchmark\\dlss_upscale\\winged-couriers-1_001\\winged-couriers-1_001_60s_dlss_1.5x_1920x1080.mp4",
+      "evidence": {
+        "status": "success",
+        "gpu": {
+          "index": 0,
+          "uuid": "GPU-cbc6c498-bb56-7fe5-7a4b-62de4291ee92",
+          "pci_bus_id": "0000:09:00.0",
+          "name": "NVIDIA GeForce RTX 5060 Ti",
+          "display_name": "NVIDIA GeForce RTX 5060 Ti",
+          "driver": "616.56",
+          "memory_mb": 16311,
+          "compute_capability": "12.0",
+          "architecture": "Blackwell",
+          "generation": 50,
+          "beta": false,
+          "ai_compatible": true,
+          "compatibility_error": "",
+          "cuda_ordinal": 0
+        },
+        "frames_processed": 288,
+        "engine_elapsed_sec": 16.39957620000041,
+        "engine_average_fps": 17.561429422791594,
+        "feature_18_confirmed": true,
+        "nr_upscaling_active": false,
+        "nr_native_fallback": true,
+        "nr_upscaling_requested": true,
+        "carrier_create_result": "0x00000001",
+        "ngx_setup_result": "0x00000001",
+        "dlss_mode": "Quality",
+        "requested_dlss_model_preset": "Default",
+        "applied_dlss_model_preset_name": "Default",
+        "input_dimensions": {
+          "width": 1344,
+          "height": 768
+        },
+        "negotiated_render_dimensions": {
+          "width": 1344,
+          "height": 768
+        },
+        "output_dimensions": {
+          "width": 2016,
+          "height": 1152
+        },
+        "effective_factor": {
+          "width": 1.5,
+          "height": 1.5
+        },
+        "scene_resets": 1
+      },
+      "output": {
+        "width": 1920,
+        "height": 1080,
+        "fps": 24.0,
+        "frames": 288,
+        "duration_sec": 12.0
+      },
+      "fps_end_to_end": 17.45
+    }
+  },
+  "lap_var_heuristic": {
+    "lap_var_f000043": {
+      "vsr": 221.2,
+      "dlss": 243.0
+    },
+    "lap_var_f000144": {
+      "vsr": 1602.8,
+      "dlss": 1275.2
+    },
+    "lap_var_f000244": {
+      "vsr": 1568.6,
+      "dlss": 1246.4
+    }
+  },
+  "artifacts": {
+    "side_by_side_video": "D:\\SOURCE\\AutoTube\\video_benchmark\\dlss_upscale\\winged-couriers-1_001\\final_stitched_60s_vsr_vs_dlss.mp4",
+    "still_f000043": "D:\\SOURCE\\AutoTube\\video_benchmark\\dlss_upscale\\winged-couriers-1_001\\stills\\final_stitched_60s_f000043_sbs_full.png",
+    "crop_f000043": "D:\\SOURCE\\AutoTube\\video_benchmark\\dlss_upscale\\winged-couriers-1_001\\stills\\final_stitched_60s_f000043_sbs_crop2x.png",
+    "still_f000144": "D:\\SOURCE\\AutoTube\\video_benchmark\\dlss_upscale\\winged-couriers-1_001\\stills\\final_stitched_60s_f000144_sbs_full.png",
+    "crop_f000144": "D:\\SOURCE\\AutoTube\\video_benchmark\\dlss_upscale\\winged-couriers-1_001\\stills\\final_stitched_60s_f000144_sbs_crop2x.png",
+    "still_f000244": "D:\\SOURCE\\AutoTube\\video_benchmark\\dlss_upscale\\winged-couriers-1_001\\stills\\final_stitched_60s_f000244_sbs_full.png",
+    "crop_f000244": "D:\\SOURCE\\AutoTube\\video_benchmark\\dlss_upscale\\winged-couriers-1_001\\stills\\final_stitched_60s_f000244_sbs_crop2x.png"
+  }
+}

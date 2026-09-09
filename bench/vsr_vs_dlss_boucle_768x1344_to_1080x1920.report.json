@@ -1,0 +1,119 @@
+{
+  "video_id": "boucle-furniture-1_001",
+  "source": "D:\\SOURCE\\AutoTube\\projects\\boucle-furniture-1_001\\final_stitched.mp4",
+  "excerpt": "D:\\SOURCE\\AutoTube\\video_benchmark\\dlss_upscale\\input\\boucle-furniture-1_001_20s.mp4",
+  "excerpt_probe": {
+    "width": 768,
+    "height": 1344,
+    "fps": 24.0,
+    "frames": 288,
+    "duration_sec": 12.0
+  },
+  "start_sec": 20,
+  "seconds": 12.0,
+  "delivery": {
+    "width": 1080,
+    "height": 1920
+  },
+  "factor": 1.5,
+  "nr_style": "Default",
+  "legs": {
+    "rtx_vsr_ultra": {
+      "ok": true,
+      "wall_clock_sec": 10.7,
+      "quality": "ULTRA",
+      "output": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 24.0067,
+        "frames": 286,
+        "duration_sec": 11.917
+      },
+      "fps_end_to_end": 26.73
+    },
+    "dlss_video_upscale": {
+      "ok": true,
+      "wall_clock_sec": 22.6,
+      "output_path": "D:\\SOURCE\\AutoTube\\video_benchmark\\dlss_upscale\\boucle-furniture-1_001\\boucle-furniture-1_001_20s_dlss_1.5x_1080x1920.mp4",
+      "evidence": {
+        "status": "success",
+        "gpu": {
+          "index": 0,
+          "uuid": "GPU-cbc6c498-bb56-7fe5-7a4b-62de4291ee92",
+          "pci_bus_id": "0000:09:00.0",
+          "name": "NVIDIA GeForce RTX 5060 Ti",
+          "display_name": "NVIDIA GeForce RTX 5060 Ti",
+          "driver": "616.56",
+          "memory_mb": 16311,
+          "compute_capability": "12.0",
+          "architecture": "Blackwell",
+          "generation": 50,
+          "beta": false,
+          "ai_compatible": true,
+          "compatibility_error": "",
+          "cuda_ordinal": 0
+        },
+        "frames_processed": 288,
+        "engine_elapsed_sec": 22.26454509999985,
+        "engine_average_fps": 12.935364217255081,
+        "feature_18_confirmed": true,
+        "nr_upscaling_active": false,
+        "nr_native_fallback": true,
+        "nr_upscaling_requested": true,
+        "carrier_create_result": "0x00000001",
+        "ngx_setup_result": "0x00000001",
+        "dlss_mode": "Quality",
+        "requested_dlss_model_preset": "Default",
+        "applied_dlss_model_preset_name": "Default",
+        "input_dimensions": {
+          "width": 768,
+          "height": 1344
+        },
+        "negotiated_render_dimensions": {
+          "width": 768,
+          "height": 1344
+        },
+        "output_dimensions": {
+          "width": 1152,
+          "height": 2016
+        },
+        "effective_factor": {
+          "width": 1.5,
+          "height": 1.5
+        },
+        "scene_resets": 1
+      },
+      "output": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 24.0,
+        "frames": 288,
+        "duration_sec": 12.0
+      },
+      "fps_end_to_end": 12.74
+    }
+  },
+  "lap_var_heuristic": {
+    "lap_var_f000043": {
+      "vsr": 1191.9,
+      "dlss": 1142.4
+    },
+    "lap_var_f000144": {
+      "vsr": 766.9,
+      "dlss": 705.0
+    },
+    "lap_var_f000244": {
+      "vsr": 802.3,
+      "dlss": 778.4
+    }
+  },
+  "artifacts": {
+    "side_by_side_video": "D:\\SOURCE\\AutoTube\\video_benchmark\\dlss_upscale\\boucle-furniture-1_001\\final_stitched_20s_vsr_vs_dlss.mp4",
+    "still_f000043": "D:\\SOURCE\\AutoTube\\video_benchmark\\dlss_upscale\\boucle-furniture-1_001\\stills\\final_stitched_20s_f000043_sbs_full.png",
+    "crop_f000043": "D:\\SOURCE\\AutoTube\\video_benchmark\\dlss_upscale\\boucle-furniture-1_001\\stills\\final_stitched_20s_f000043_sbs_crop2x.png",
+    "still_f000144": "D:\\SOURCE\\AutoTube\\video_benchmark\\dlss_upscale\\boucle-furniture-1_001\\stills\\final_stitched_20s_f000144_sbs_full.png",
+    "crop_f000144": "D:\\SOURCE\\AutoTube\\video_benchmark\\dlss_upscale\\boucle-furniture-1_001\\stills\\final_stitched_20s_f000144_sbs_crop2x.png",
+    "still_f000244": "D:\\SOURCE\\AutoTube\\video_benchmark\\dlss_upscale\\boucle-furniture-1_001\\stills\\final_stitched_20s_f000244_sbs_full.png",
+    "crop_f000244": "D:\\SOURCE\\AutoTube\\video_benchmark\\dlss_upscale\\boucle-furniture-1_001\\stills\\final_stitched_20s_f000244_sbs_crop2x.png"
+  }
+}
