@@ -13,6 +13,7 @@ Examples:
 
 <img width="1600" height="725" alt="image" src="https://github.com/user-attachments/assets/62f586f8-d0b3-42c1-b0f1-0046d1f53a35" />
 
+<img width="3360" height="1372" alt="shot_033_compare" src="https://github.com/user-attachments/assets/11c5784b-2fdd-4a32-af9c-22bb540ed534" />
 
 
 ```text
