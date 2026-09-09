@@ -5,6 +5,11 @@ to delivery size with the real VSR model, straight from the command line.
 No ComfyUI server, no PNG roundtrips, no separate denoise pass. Decode,
 super-resolve, and encode all happen on the GPU in one pass.
 
+Examples:
+768p input: https://github.com/user-attachments/assets/20a6152f-17b3-4c81-906b-da9eaa6c8bd9
+1080p output: https://github.com/user-attachments/assets/24d67a5b-0470-46b8-9195-ebccc38d20a7
+<img width="1600" height="725" alt="image" src="https://github.com/user-attachments/assets/62f586f8-d0b3-42c1-b0f1-0046d1f53a35" />
+
 ```text
 fast-rtxvsr run input.mp4 --width 1920 --height 1080
 -> out/<project>/input/input_vsr.mp4   (1920x1080, VSR ULTRA)
