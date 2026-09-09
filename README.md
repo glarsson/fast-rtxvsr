@@ -66,8 +66,8 @@ ran inside the same benchmark harness; raw reports are in `bench/`.
 
 | Excerpt (gen size -> delivery) | RTX VSR ULTRA | DLSS Video Upscale | VSR faster |
 | --- | ---: | ---: | ---: |
-| boucle-furniture, 768x1344 -> 1080x1920 | 10.7 s (26.7 fps e2e) | 22.6 s (12.7 fps e2e) | **2.1x** |
-| winged-couriers, 1344x768 -> 1920x1080 | 10.8 s (26.5 fps e2e) | 16.5 s (17.5 fps e2e) | **1.5x** |
+| test 1, 768x1344 -> 1080x1920 | 10.7 s (26.7 fps e2e) | 22.6 s (12.7 fps e2e) | **2.1x** |
+| test 2, 1344x768 -> 1920x1080 | 10.8 s (26.5 fps e2e) | 16.5 s (17.5 fps e2e) | **1.5x** |
 
 A Laplacian-variance sharpness heuristic on stills from each excerpt favored
 VSR at five of the six sampled frames (the DLSS report also shows its noise
